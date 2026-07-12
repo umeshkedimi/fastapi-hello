@@ -1,5 +1,7 @@
 # fastapi-hello
 
+[![Docker build](https://github.com/umeshkedimi/fastapi-hello/actions/workflows/docker-build.yml/badge.svg)](https://github.com/umeshkedimi/fastapi-hello/actions/workflows/docker-build.yml)
+
 A minimal FastAPI service with a basic endpoint, managed with [uv](https://docs.astral.sh/uv/) and Docker.
 
 ## Run locally
