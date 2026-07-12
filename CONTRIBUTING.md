@@ -20,10 +20,11 @@ docker run -p 8000:8000 fastapi-hello
 
 1. Fork the repo and create a branch from `main`.
 2. Make your change, keeping it as small and focused as possible.
-3. Make sure the app still runs locally and the Docker build succeeds.
-4. Open a pull request describing what changed and why.
+3. Run `uv run ruff check .` and `uv run ruff format .` to lint and format.
+4. Run `uv run pytest` and make sure the Docker build succeeds.
+5. Open a pull request describing what changed and why.
 
-CI will build the Docker image and smoke-test the container on every pull request.
+CI will lint, run tests, then build the Docker image and smoke-test the container on every pull request.
 
 ## Reporting issues
 
