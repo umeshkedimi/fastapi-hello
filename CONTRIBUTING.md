@@ -16,8 +16,8 @@ before each commit, so issues get caught locally instead of in CI.
 Run the app in Docker:
 
 ```bash
-docker build -t fastapi-hello .
-docker run -p 8000:8000 fastapi-hello
+docker build -t agentic-fastapi-template .
+docker run -p 8000:8000 agentic-fastapi-template
 ```
 
 ## Making a change

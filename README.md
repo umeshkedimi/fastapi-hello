@@ -1,6 +1,6 @@
-# fastapi-hello
+# agentic-fastapi-template
 
-[![Docker build](https://github.com/umeshkedimi/fastapi-hello/actions/workflows/docker-build.yml/badge.svg)](https://github.com/umeshkedimi/fastapi-hello/actions/workflows/docker-build.yml)
+[![Docker build](https://github.com/umeshkedimi/agentic-fastapi-template/actions/workflows/docker-build.yml/badge.svg)](https://github.com/umeshkedimi/agentic-fastapi-template/actions/workflows/docker-build.yml)
 
 A minimal, fork-friendly FastAPI starter for building agentic AI apps — managed with [uv](https://docs.astral.sh/uv/) and Docker, with a pluggable LLM provider layer (OpenAI + Anthropic).
 
@@ -27,6 +27,6 @@ curl -X POST http://127.0.0.1:8000/chat \
 ## Run with Docker
 
 ```bash
-docker build -t fastapi-hello .
-docker run -p 8000:8000 fastapi-hello
+docker build -t agentic-fastapi-template .
+docker run -p 8000:8000 agentic-fastapi-template
 ```

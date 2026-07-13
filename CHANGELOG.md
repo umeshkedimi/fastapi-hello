@@ -22,5 +22,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `ruff` for linting and formatting, wired into CI.
 - `pre-commit` hook running ruff and pytest before each commit.
 
-[Unreleased]: https://github.com/umeshkedimi/fastapi-hello/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/umeshkedimi/fastapi-hello/releases/tag/v0.1.0
+[Unreleased]: https://github.com/umeshkedimi/agentic-fastapi-template/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/umeshkedimi/agentic-fastapi-template/releases/tag/v0.1.0
