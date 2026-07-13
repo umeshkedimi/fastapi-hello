@@ -7,7 +7,7 @@ Thanks for considering a contribution! This project aims to stay small and easy 
 ```bash
 uv sync
 uv run pre-commit install
-uv run uvicorn main:app --reload
+uv run uvicorn app.main:app --reload
 ```
 
 `pre-commit install` sets up a git hook that runs ruff and pytest automatically

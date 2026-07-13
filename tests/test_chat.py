@@ -1,7 +1,8 @@
 from fastapi.testclient import TestClient
 
+from app.main import app
+from app.providers import get_chat_provider
 from app.providers.base import ChatProvider
-from main import app, get_chat_provider
 
 
 class FakeProvider(ChatProvider):

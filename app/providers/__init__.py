@@ -21,3 +21,7 @@ def get_provider(name: str | None = None) -> ChatProvider:
         )
 
     raise ValueError(f"Unknown provider: {provider_name}")
+
+
+def get_chat_provider() -> ChatProvider:
+    return get_provider()
